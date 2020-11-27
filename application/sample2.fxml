@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="794.0" prefWidth="1513.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.sample2controller">
+   <children>
+      <ImageView fitHeight="481.0" fitWidth="893.0" layoutX="-2.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/registration.jpg" />
+         </image>
+      </ImageView>
+      <ListView layoutX="911.0" layoutY="-2.0" prefHeight="801.0" prefWidth="429.0" />
+      <TextField fx:id="Name" layoutX="1115.0" layoutY="56.0" prefHeight="37.0" prefWidth="169.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <DatePicker fx:id="DOB" layoutX="1117.0" layoutY="120.0" prefHeight="37.0" prefWidth="174.0" />
+      <RadioButton fx:id="Male" layoutX="1115.0" layoutY="194.0" mnemonicParsing="false" text="Male">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="tg" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="Female" layoutX="1177.0" layoutY="194.0" mnemonicParsing="false" text="Female" toggleGroup="$tg">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="oth" layoutX="1254.0" layoutY="194.0" mnemonicParsing="false" text="Other" toggleGroup="$tg">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="City" layoutX="1115.0" layoutY="252.0" prefHeight="37.0" prefWidth="169.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Email" layoutX="1115.0" layoutY="319.0" prefHeight="37.0" prefWidth="169.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Number" layoutX="1119.0" layoutY="443.0" prefHeight="37.0" prefWidth="169.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="Address" layoutX="1121.0" layoutY="512.0" prefHeight="96.0" prefWidth="200.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="Course" layoutX="1119.0" layoutY="628.0" prefHeight="37.0" prefWidth="169.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="Register" layoutX="378.0" layoutY="600.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="174.0" style="-fx-background-color: black;" text="Register" textFill="#fffafa">
+         <font>
+            <Font name="Ink Free" size="28.0" />
+         </font>
+      </Button>
+      <Label layoutX="936.0" layoutY="58.0" prefHeight="37.0" prefWidth="117.0" text="Name">
+         <font>
+            <Font name="Comic Sans MS Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="936.0" layoutY="120.0" prefHeight="37.0" prefWidth="117.0" text="D.O.B">
+         <font>
+            <Font name="Comic Sans MS Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="936.0" layoutY="195.0" prefHeight="37.0" prefWidth="117.0" text="Sex">
+         <font>
+            <Font name="Comic Sans MS Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="936.0" layoutY="451.0" prefHeight="37.0" prefWidth="117.0" text="Contact No.">
+         <font>
+            <Font name="Comic Sans MS Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="936.0" layoutY="320.0" prefHeight="37.0" prefWidth="117.0" text="E-mail">
+         <font>
+            <Font name="Comic Sans MS Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="936.0" layoutY="253.0" prefHeight="37.0" prefWidth="117.0" text="City">
+         <font>
+            <Font name="Comic Sans MS Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="936.0" layoutY="523.0" prefHeight="37.0" prefWidth="117.0" text="Address">
+         <font>
+            <Font name="Comic Sans MS Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="936.0" layoutY="619.0" prefHeight="37.0" prefWidth="117.0" text="Course">
+         <font>
+            <Font name="Comic Sans MS Italic" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="111.0" fitWidth="137.0" layoutX="636.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Childrenicon.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="925.0" layoutY="385.0" prefHeight="37.0" prefWidth="117.0" text="Password">
+         <font>
+            <Font name="Comic Sans MS Italic" size="19.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="Password" layoutX="1117.0" layoutY="385.0" prefHeight="37.0" prefWidth="169.0" />
+      <Button fx:id="home" layoutX="39.0" layoutY="645.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="103.0" style="-fx-background-color: orange;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="Ink Free" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
